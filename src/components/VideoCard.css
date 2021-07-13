@@ -1,0 +1,20 @@
+.videoCard {
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.videoCard img {
+  width: 100%;
+}
+
+.videoCard__info {
+  display: flex;
+}
+
+.videoCard__text {
+  margin-left: 10px;
+}
+
+.videoCard__info {
+  margin-top: 10px;
+}
