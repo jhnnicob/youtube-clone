@@ -1,0 +1,11 @@
+.sidebar {
+  max-width: 240px;
+  width: 100%;
+}
+
+.sidebar__divider {
+  height: 1px;
+  background-color: lightgray;
+  border: 0;
+  margin: 20px 0;
+}

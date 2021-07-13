@@ -1,0 +1,8 @@
+.recommendedVideos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: calc(100% - 240px);
+  padding: 18px 16px;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}

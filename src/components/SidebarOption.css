@@ -1,0 +1,31 @@
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
+}
+
+.sidebar-option:hover {
+  background: var(--general-icon-hover-color);
+  cursor: pointer;
+}
+
+.sidebar-option:hover > .sidebar-option__icon {
+  color: red;
+}
+
+.sidebar-option > span {
+  font-size: 14px;
+}
+
+.sidebar-option > .MuiSvgIcon-root {
+  margin-right: 20px;
+  color: rgb(92, 92, 92);
+}
+
+.sidebar-option.selected {
+  background: lightgray;
+}
+
+.sidebar-option.selected > .sidebar-option__icon {
+  color: red;
+}
